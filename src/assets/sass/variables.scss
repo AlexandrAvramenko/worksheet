@@ -1,0 +1,35 @@
+//
+// Color system
+//
+
+$blue: #435993;
+
+$colors: ();
+$colors: map-merge((
+        "blue": $blue
+), $colors);
+
+$primary: $blue;
+
+$theme-colors: ();
+$theme-colors: map-merge((
+        "primary": $primary
+), $theme-colors);
+
+// Buttons + Forms
+//
+
+$input-btn-padding-y: .75rem;
+$input-btn-padding-x: 2.1rem;
+
+$input-btn-padding-y-sm: .5rem;
+$input-btn-padding-x-sm: 1.75rem;
+
+$input-btn-padding-y-lg: .75rem;
+$input-btn-padding-x-lg: 2.1rem;
+
+// Buttons
+//
+$btn-border-radius: .75rem;
+$btn-border-radius-lg: .8rem;
+$btn-border-radius-sm: .7rem;
